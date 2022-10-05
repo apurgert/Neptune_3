@@ -100,11 +100,11 @@
 
 // MAIN CONFIGURATION SWITCHES FOR FEATURES - IS_3D and IS_DUAL_Z are not compatible with each other!!
 // ctrl+/ with your cursor on a line will comment / uncomment that line.
-// #define HAS_BLTOUCH               // uncomment if you have a BLTouch or clone
+// #define HAS_BLTOUCH               // uncomment if you have a BLTouch or clone.
 // #define HAS_WIFI                  // uncomment if you have wifi module installed, NOT WORKING YET!
 // #define IS_3D                     // uncomment if you have dual extruders, Requires a TMC2208 driver in the empty socket.
 // #define IS_DUAL_Z                 // uncomment if you have dual independent Z, Requires a TMC2208 driver in the empty socket.
-#define NO_NOZZLE_PREHEAT            // uncomment if you don't want the nozzle to pre-heat for leveling. Recommended
+#define NO_NOZZLE_PREHEAT            // uncomment if you don't want the nozzle to pre-heat for leveling. RECOMMENDED Enabled.
 // #define THEME_BLUE                // uncomment if you want the Blue theme for the screen instead of Green.
 
 // @section machine
