@@ -105,7 +105,7 @@
 // #define IS_3D                     // uncomment if you have dual extruders, Requires a TMC2208 driver in the empty socket.
 // #define IS_DUAL_Z                 // uncomment if you have dual independent Z, Requires a TMC2208 driver in the empty socket on Neptune 3 or an A4988 on Neptune 2.
 #define NO_NOZZLE_PREHEAT            // uncomment if you don't want the nozzle to pre-heat for leveling.
-#define THEME_BLUE                // uncomment if you want the Blue theme for the screen instead of Green.
+// #define THEME_BLUE                // uncomment if you want the Blue theme for the screen instead of Green.
 
 // @section machine
 
