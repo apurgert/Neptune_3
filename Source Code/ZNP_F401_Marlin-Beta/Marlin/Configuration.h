@@ -104,7 +104,6 @@
 // #define IS_3D                     // uncomment if you have dual extruders, Requires a TMC2208 driver in the empty socket.
 // #define IS_DUAL_Z                 // uncomment if you have dual independent Z, Requires a TMC2208 driver in the empty socket.
 #define NO_NOZZLE_PREHEAT         // uncomment if you don't want the nozzle to pre-heat for leveling. RECOMMENDED Enabled.
-// #define THEME_BLUE                // uncomment if you want the Blue theme for the screen instead of Green.
 
 #if ENABLED(IS_DUAL_Z)
   #define Z2_ENABLE_PIN  E1_ENABLE_PIN
@@ -2713,11 +2712,7 @@
 #define DGUS_LCD_UI_MKS
 //#define DGUS_LCD_UI_RELOADED
 #if ENABLED(DGUS_LCD_UI_MKS)
-  #if ENABLED(BLUE_THEME)
-    #define USE_MKS_BLUE_UI
-  #else  
-    #define USE_MKS_GREEN_UI
-  #endif
+  #define USE_MKS_GREEN_UI
 #endif
 
 //
