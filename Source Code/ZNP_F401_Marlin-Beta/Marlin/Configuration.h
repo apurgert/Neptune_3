@@ -1640,7 +1640,7 @@
 /**
  * Auto-leveling needs preheating
  */
-#define PREHEAT_BEFORE_LEVELING
+//#define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
   #if NONE(NO_NOZZLE_PREHEAT)
     #define LEVELING_NOZZLE_TEMP 120   // (°C) Only applies to E0 at this time
